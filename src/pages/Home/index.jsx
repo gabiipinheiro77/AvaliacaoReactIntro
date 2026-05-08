@@ -1,10 +1,12 @@
-import { Link } from 'react-router-dom'
-import { useState } from 'react'
-import './style.css'
+import { Link } from "react-router-dom";
 
 function Home () {
     return (
-        <h1>Exercicios</h1>
+        <>
+        <Link to='/Exercicio'><button>Exercicio 1</button></Link>
+        <Link to='/Exercicio2'><button>Exercicio 2</button></Link>
+        </>
     )
+
 }
 export default Home

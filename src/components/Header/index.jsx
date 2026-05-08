@@ -1,7 +1,11 @@
-import {Link} from "react-router-dom";
+import { Link } from 'react-router-dom'
 import './style.css'
-
-function Header (){
-    <h1>Batata</h1>
+ 
+function Header() {
+    return (
+        <>
+        <h2>React</h2>
+        </>
+    )
 }
 export default Header
